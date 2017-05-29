@@ -1390,6 +1390,28 @@
           "length": 1,
           "methodology": "harmonized",
           "type": "binominal"
+        },
+        {
+          "code": "handedness",
+          "description": "Handedness",
+          "enumerations": [
+            {
+              "code": "R",
+              "label": "Right"
+            },
+            {
+              "code": "L",
+              "label": "Left"
+            },
+            {
+              "code": "A",
+              "label": "Ambidextrous"
+            }
+          ],
+          "label": "Handedness",
+          "length": 1,
+          "methodology": "harmonized",
+          "type": "polynominal"
         }
       ]
     },
