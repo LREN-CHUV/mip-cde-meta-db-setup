@@ -1,0 +1,9 @@
+harmonized_meta_db_setup:
+  build: Dockerfile
+  image: registry.gitlab.com/hbpmip_private/harmonized-meta-db-setup
+  pre:
+    - echo "Building registry.gitlab.com/hbpmip/harmonized-meta-db-setup image"
+  post:
+    - echo "Finished building registry.gitlab.com/hbpmip/harmonized-meta-db-setup image"
+  test:
+    - ./tests/test.sh
