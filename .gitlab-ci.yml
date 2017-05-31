@@ -32,11 +32,11 @@ build:
     - echo $USER
     - pre-commit run --all-files
     - PATH=$PATH:/$HOME/.captain/bin/ ./build.sh
-    - docker login -u $DOCKER_REPO_USER -p $DOCKER_REPO_PASSWORD registry.gitlab.com
+    # - docker login -u $DOCKER_REPO_USER -p $DOCKER_REPO_PASSWORD registry.gitlab.com
     - BUILD_DATE= VCS_REF=latest VERSION=latest WORKSPACE=. $HOME/.captain/bin/captain push mip_cde_meta_db_setup
 
 test:
   stage: test
   script:
-    - docker login -u $DOCKER_REPO_USER -p $DOCKER_REPO_PASSWORD registry.gitlab.com
+    # - docker login -u $DOCKER_REPO_USER -p $DOCKER_REPO_PASSWORD registry.gitlab.com
     - PATH=$PATH:/$HOME/.captain/bin/ ./tests/test.sh

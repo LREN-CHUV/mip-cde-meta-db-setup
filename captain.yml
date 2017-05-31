@@ -1,9 +1,9 @@
 mip_cde_meta_db_setup:
   build: Dockerfile
-  image: registry.gitlab.com/hbpmip_private/mip-cde-meta-db-setup
+  image: hbpmip/mip-cde-meta-db-setup
   pre:
-    - echo "Building registry.gitlab.com/hbpmip/mip-cde-meta-db-setup image"
+    - echo "Building hbpmip/mip-cde-meta-db-setup image"
   post:
-    - echo "Finished building registry.gitlab.com/hbpmip/mip-cde-meta-db-setup image"
+    - echo "Finished building hbpmip/mip-cde-meta-db-setup image"
   test:
     - ./tests/test.sh
