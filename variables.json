@@ -1399,12 +1399,12 @@
             "code": "clmcategory",
             "description": "Terms aggregating illnesses into classes. Note that the diagnosis in this categories are given only for the CLM data set.",
             "enumerations": [{
-                "code": "Alzheimer's disease, atypical or mixed type",
-                "label": "Alzheimer's disease, atypical or mixed type"
+                "code": "Alzheimer''s disease, atypical or mixed type",
+                "label": "Alzheimer''s disease, atypical or mixed type"
               },
               {
-                "code": "Alzheimer's disease",
-                "label": "Alzheimer's disease"
+                "code": "Alzheimer''s disease",
+                "label": "Alzheimer''s disease"
               },
               {
                 "code": "Transient global amnesia",
@@ -1427,8 +1427,8 @@
                 "label": "MCI"
               },
               {
-                "code": "Parkinson's disease",
-                "label": "Parkinson's disease"
+                "code": "Parkinson''s disease",
+                "label": "Parkinson''s disease"
               },
               {
                 "code": "Subjective cognitive complaints",
@@ -1460,10 +1460,10 @@
             "type": "polynominal"
           }, {
             "code": "alzheimerbroadcategory",
-            "description": "There will be two broad categories taken into account. Alzheimer's disease (AD) in which the diagnostic is 100% certain and \"Other\" comprising the rest of Alzheimer's related categories. The \"Other\" category refers to Alzheime's related diagnosis which origin can be traced to other pathology eg. vascular. In this category MCI diagnosis can also be found. In summary, all Alzheimer's related diagnosis that are not pure.",
+            "description": "There will be two broad categories taken into account. Alzheimer''s disease (AD) in which the diagnostic is 100% certain and \"Other\" comprising the rest of Alzheimer''s related categories. The \"Other\" category refers to Alzheime''s related diagnosis which origin can be traced to other pathology eg. vascular. In this category MCI diagnosis can also be found. In summary, all Alzheimer''s related diagnosis that are not pure.",
             "enumerations": [{
               "code": "AD",
-              "label": "Alzheimer's disease"
+              "label": "Alzheimer''s disease"
             }, {
               "code": "CN",
               "label": "Cognitively Normal"
@@ -1476,32 +1476,32 @@
             "type": "polynominal"
           }, {
             "code": "parkinsonbroadcategory",
-            "description": "There will be two broad categories taken into account. Parkinson's disease without disability or light disability: Without fluctuation of the effect. Dementia in Parkinson's disease",
+            "description": "There will be two broad categories taken into account. Parkinson''s disease without disability or light disability: Without fluctuation of the effect. Dementia in Parkinson''s disease",
             "enumerations": [{
               "code": "PD",
-              "label": "Dementia in Parkinson's disease"
+              "label": "Dementia in Parkinson''s disease"
             }, {
               "code": "CN",
               "label": "Healthy control"
             }, {
               "code": "Other",
-              "label": "Parkinson's disease without disability or light disability: Without fluctuation of the effect"
+              "label": "Parkinson''s disease without disability or light disability: Without fluctuation of the effect"
             }],
             "label": "Parkinson Broad Category",
             "methodology": "mip-cde",
             "type": "polynominal"
           }, {
             "code": "neurogenerativescategories",
-            "description": "There will be two broad categories taken into account. Parkinson's disease without disability or light disability: Without fluctuation of the effect. Dementia in Parkinson's disease",
+            "description": "There will be two broad categories taken into account. Parkinson''s disease without disability or light disability: Without fluctuation of the effect. Dementia in Parkinson''s disease",
             "enumerations": [{
               "code": "PD",
-              "label": "Parkinson's disease"
+              "label": "Parkinson''s disease"
             }, {
               "code": "AD",
-              "label": "Alzheimer's disease"
+              "label": "Alzheimer''s disease"
             }, {
               "code": "HD",
-              "label": "Huntington's disease"
+              "label": "Huntington''s disease"
             }, {
               "code": "ALS",
               "label": "Amyotrophic lateral sclerosis"
@@ -1526,7 +1526,7 @@
             "description": "Terms aggregating illnesses into classes. Note that the diagnosis in this categories are given only for the ADNI data set.",
             "enumerations": [{
               "code": "AD",
-              "label": "Alzheimer's Disease"
+              "label": "Alzheimer''s Disease"
             }, {
               "code": "MCI",
               "label": "Mild Cognitive Impairment"
@@ -1542,7 +1542,7 @@
             "description": "Terms aggregating illnesses into classes. Note that the diagnosis in this categories are given only for the EDSD data set.",
             "enumerations": [{
               "code": "AD",
-              "label": "Alzheimer's Disease"
+              "label": "Alzheimer''s Disease"
             }, {
               "code": "MCI",
               "label": "Mild Cognitive Impairment"
@@ -1555,7 +1555,7 @@
             "type": "polynominal"
           }, {
             "code": "ppmicategory",
-            "description": "Terms aggregating the Parkinson's diseases into classes. For this instance the diagnosis given at enrollment is taken as the clinical diagnosis. Note that the diagnosis in this categories are given only for the PPMI data set.",
+            "description": "Terms aggregating the Parkinson''s diseases into classes. For this instance the diagnosis given at enrollment is taken as the clinical diagnosis. Note that the diagnosis in this categories are given only for the PPMI data set.",
             "enumerations": [{
               "code": "PD",
               "label": "Parkinson disease"
@@ -1614,7 +1614,7 @@
               "label": "UPDRS",
               "variables": [{
                   "code": "updrstotal",
-                  "description": "The unified Parkinson's disease rating scale (UPDRS) is used to follow the longitudinal course of Parkinson's disease. The UPD rating scale is the most commonly used scale in the clinical study of Parkinson's disease.",
+                  "description": "The unified Parkinson''s disease rating scale (UPDRS) is used to follow the longitudinal course of Parkinson''s disease. The UPD rating scale is the most commonly used scale in the clinical study of Parkinson''s disease.",
                   "label": "UPDRS Total",
                   "maxValue": 172,
                   "methodology": "mip-cde",
