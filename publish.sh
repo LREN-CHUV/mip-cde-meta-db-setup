@@ -101,7 +101,7 @@ BUILD_DATE=$(date -Iseconds) \
   VCS_REF=$updated_version \
   VERSION=$updated_version \
   WORKSPACE=$WORKSPACE \
-  $CAPTAIN push harmonized_meta_db_setup --branch-tags=false --commit-tags=false --tag $updated_version
+  $CAPTAIN push mip_cde_meta_db_setup --branch-tags=false --commit-tags=false --tag $updated_version
 
 # Notify on slack
 sed "s/USER/${USER^}/" $WORKSPACE/slack.json > $WORKSPACE/.slack.json

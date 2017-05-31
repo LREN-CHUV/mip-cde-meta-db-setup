@@ -5,16 +5,16 @@ ARG BUILD_DATE
 ARG VCS_REF
 ARG VERSION
 
-COPY variables.json /src/variables/harmonized.json
-ENV CDE_DEFINITIONS="harmonized" \
-    CDE_TARGET_TABLES="harmonized_DATA"
+COPY variables.json /src/variables/mip-cde.json
+ENV CDE_DEFINITIONS="mip-cde" \
+    CDE_TARGET_TABLES="MIP_CDE_DATA"
 
 LABEL org.label-schema.build-date=$BUILD_DATE \
-      org.label-schema.name="hbpmip/harmonized-meta-db-setup" \
-      org.label-schema.description="Meta database setup with harmonized variables" \
-      org.label-schema.url="https://github.com/LREN-CHUV/harmonized-meta-db-setup" \
+      org.label-schema.name="hbpmip/mip-cde-meta-db-setup" \
+      org.label-schema.description="Meta database setup with mip-cde variables" \
+      org.label-schema.url="https://github.com/LREN-CHUV/mip-cde-meta-db-setup" \
       org.label-schema.vcs-type="git" \
-      org.label-schema.vcs-url="https://github.com/LREN-CHUV/harmonized-meta-db-setup" \
+      org.label-schema.vcs-url="https://github.com/LREN-CHUV/mip-cde-meta-db-setup" \
       org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.version="$VERSION" \
       org.label-schema.vendor="LREN CHUV" \

@@ -11,10 +11,10 @@ SELECT has_column( 'meta_variables', 'target_table' );
 SELECT has_column( 'meta_variables', 'hierarchy' );
 SELECT col_is_pk(  'meta_variables', 'id' );
 
-SELECT is(source::VARCHAR, 'harmonized', 'harmonized variables should be present')
+SELECT is(source::VARCHAR, 'mip-cde', 'mip-cde variables should be present')
   FROM meta_variables;
 
-SELECT is(target_table::VARCHAR, 'harmonized_DATA', 'Target harmonized table should be present')
+SELECT is(target_table::VARCHAR, 'MIP_CDE_DATA', 'Target mip-cde table should be present')
   FROM meta_variables;
 
 -- Clean up

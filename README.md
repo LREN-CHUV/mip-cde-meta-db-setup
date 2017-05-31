@@ -1,7 +1,7 @@
-[![CHUV](https://img.shields.io/badge/CHUV-LREN-AF4C64.svg)](https://www.unil.ch/lren/en/home.html) [![License](https://img.shields.io/badge/license-proprietary-AF4C64.svg)](https://github.com/LREN-CHUV/harmonized-meta-db-setup/blob/master/LICENSE)
-[![build status](https://gitlab.com/hbpmip/harmonized-meta-db-setup/badges/master/build.svg)](https://gitlab.com/hbpmip/harmonized-meta-db-setup/commits/master)
+[![CHUV](https://img.shields.io/badge/CHUV-LREN-AF4C64.svg)](https://www.unil.ch/lren/en/home.html) [![License](https://img.shields.io/badge/license-proprietary-AF4C64.svg)](https://github.com/LREN-CHUV/mip-cde-meta-db-setup/blob/master/LICENSE)
+[![build status](https://gitlab.com/hbpmip/mip-cde-meta-db-setup/badges/master/build.svg)](https://gitlab.com/hbpmip/mip-cde-meta-db-setup/commits/master)
 
-# Setup for database 'meta-db' with the selection of variables for harmonized
+# Setup for database 'meta-db' with the selection of variables for mip-cde
 
 ## Introduction
 
@@ -10,14 +10,14 @@ This project uses Flyway to manage the database migration scripts for the 'meta-
 This database contains the metadata used for reference, including:
 
 * the list of variables and groups for the Common Data Elements (CDE) defined by MIP.
-* the list of variables and groups for harmonized
+* the list of variables and groups for mip-cde
 
 ## Usage
 
 Run:
 
 ```console
-$ docker run -i -t --rm -e FLYWAY_DBMS=postgres -e FLYWAY_HOST=`hostname` registry.gitlab.com/hbpmip/harmonized-meta-db-setup:1.1.0 migrate
+$ docker run -i -t --rm -e FLYWAY_DBMS=postgres -e FLYWAY_HOST=`hostname` registry.gitlab.com/hbpmip/mip-cde-meta-db-setup:1.1.0 migrate
 ```
 
 where the environment variables are:
@@ -43,7 +43,7 @@ Run: `./publish.sh`
 
 ## License
 
-### harmonized-meta-db-setup
+### mip-cde-meta-db-setup
 
 (this project)
 

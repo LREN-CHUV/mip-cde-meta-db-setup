@@ -19,8 +19,8 @@ services:
 
   # Use the latest image built as this is what is under test
   meta_db_setup:
-    image: "registry.gitlab.com/hbpmip_private/harmonized-meta-db-setup:latest"
-    container_name: "harmonized-meta-db-setup"
+    image: "registry.gitlab.com/hbpmip_private/mip-cde-meta-db-setup:latest"
+    container_name: "mip-cde-meta-db-setup"
     environment:
       - FLYWAY_DBMS=postgresql
       - FLYWAY_HOST=db

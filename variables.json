@@ -1306,7 +1306,7 @@
           "label": "Age Years",
           "length": 3,
           "maxValue": 130,
-          "methodology": "harmonized",
+          "methodology": "mip-cde",
           "minValue": 0,
           "type": "integer",
           "units": "years"
@@ -1317,7 +1317,7 @@
           "label": "Age Months",
           "length": 2,
           "maxValue": 11,
-          "methodology": "harmonized",
+          "methodology": "mip-cde",
           "minValue": 0,
           "type": "integer",
           "units": "months"
@@ -1347,7 +1347,7 @@
             }
           ],
           "label": "Age Group",
-          "methodology": "harmonized-merge",
+          "methodology": "mip-cde",
           "type": "polynominal"
         },
         {
@@ -1364,7 +1364,7 @@
           ],
           "label": "Gender",
           "length": 1,
-          "methodology": "harmonized",
+          "methodology": "mip-cde",
           "type": "binominal"
         },
         {
@@ -1385,7 +1385,7 @@
           ],
           "label": "Handedness",
           "length": 1,
-          "methodology": "harmonized",
+          "methodology": "mip-cde",
           "type": "polynominal"
         }
       ]
@@ -1456,7 +1456,7 @@
               }
             ],
             "label": "CLM Category",
-            "methodology": "harmonized",
+            "methodology": "mip-cde",
             "type": "polynominal"
           }, {
             "code": "alzheimerbroadcategory",
@@ -1472,7 +1472,7 @@
               "label": "Other"
             }],
             "label": "Alzheimer Broad Category",
-            "methodology": "harmonized",
+            "methodology": "mip-cde",
             "type": "polynominal"
           }, {
             "code": "parkinsonbroadcategory",
@@ -1488,7 +1488,7 @@
               "label": "Parkinson's disease without disability or light disability: Without fluctuation of the effect"
             }],
             "label": "Parkinson Broad Category",
-            "methodology": "harmonized",
+            "methodology": "mip-cde",
             "type": "polynominal"
           }, {
             "code": "neurogenerativescategories",
@@ -1519,7 +1519,7 @@
               "label": "Maladie de Creutzfeldt-Jakob"
             }],
             "label": "Neurogeneratives categories",
-            "methodology": "harmonized",
+            "methodology": "mip-cde",
             "type": "polynominal"
           }, {
             "code": "adnicategory",
@@ -1535,7 +1535,7 @@
               "label": "Cognitively Normal"
             }],
             "label": "ADNI category",
-            "methodology": "harmonized",
+            "methodology": "mip-cde",
             "type": "polynominal"
           }, {
             "code": "edsdcategory",
@@ -1551,7 +1551,7 @@
               "label": "Cognitively Normal"
             }],
             "label": "EDSD category",
-            "methodology": "harmonized",
+            "methodology": "mip-cde",
             "type": "polynominal"
           }, {
             "code": "ppmicategory",
@@ -1579,7 +1579,7 @@
               "label": "Genetic registry unaffected subjects with a mutation (LRRK2, GBA, or SNCA)"
             }],
             "label": "PPMI category",
-            "methodology": "harmonized",
+            "methodology": "mip-cde",
             "type": "polynominal"
           }]
         },
@@ -1593,7 +1593,7 @@
                 "description": "The Mini–Mental State Examination (MMSE) or Folstein test is a 30-point questionnaire that is used extensively in clinical and research settings to measure cognitive impairment. It is commonly used to screen for dementia.",
                 "label": "MMSE Total scores",
                 "maxValue": 30,
-                "methodology": "harmonized",
+                "methodology": "mip-cde",
                 "minValue": 0,
                 "type": "integer"
               }]
@@ -1605,7 +1605,7 @@
                 "description": "The Montreal Cognitive Assessment (MoCA) was designed as a rapid screening instrument for mild cognitive dysfunction. It assesses different  cognitive domains: attention and concentration, executive functions, memory,  language, visuoconstructional skills, conceptual thinking, calculations, and orientation. MoCA Total Scores refer to the final count obtained by patients after the complete test is performed.",
                 "label": "MoCA Total",
                 "maxValue": 30,
-                "methodology": "harmonized",
+                "methodology": "mip-cde",
                 "minValue": 0,
                 "type": "integer"
               }]
@@ -1617,7 +1617,7 @@
                   "description": "The unified Parkinson's disease rating scale (UPDRS) is used to follow the longitudinal course of Parkinson's disease. The UPD rating scale is the most commonly used scale in the clinical study of Parkinson's disease.",
                   "label": "UPDRS Total",
                   "maxValue": 172,
-                  "methodology": "harmonized",
+                  "methodology": "mip-cde",
                   "minValue": 0,
                   "type": "integer"
                 },
@@ -1626,7 +1626,7 @@
                   "description": "The Hoehn and Yahr scale (HY) is a widely used clinical rating scale, which defines broad categories of motor function in Parkinson’s disease (PD). It captures typical patterns of progressive motor impairment.",
                   "label": "UPDRS HY",
                   "maxValue": 5,
-                  "methodology": "harmonized",
+                  "methodology": "mip-cde",
                   "minValue": 0,
                   "type": "integer"
                 }
