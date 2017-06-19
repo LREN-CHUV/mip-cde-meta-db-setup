@@ -17,7 +17,7 @@ This database contains the metadata used for reference, including:
 Run:
 
 ```console
-$ docker run -i -t --rm -e FLYWAY_DBMS=postgres -e FLYWAY_HOST=`hostname` hbpmip/mip-cde-meta-db-setup:0.1.4 migrate
+$ docker run -i -t --rm -e FLYWAY_DBMS=postgres -e FLYWAY_HOST=`hostname` hbpmip/mip-cde-meta-db-setup:0.1.5 migrate
 ```
 
 where the environment variables are:
