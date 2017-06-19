@@ -1435,16 +1435,16 @@
 								"label": "Subjective cognitive complaints"
 							},
 							{
-								"code": "Subjective cognitive complaints with  multiple etiology",
-								"label": "Subjective cognitive complaints with  multiple etiology"
+								"code": "Subjective cognitive complaints with multiple etiology",
+								"label": "Subjective cognitive complaints with multiple etiology"
 							},
 							{
 								"code": "Cognitive impariments - other",
 								"label": "Cognitive impariments - other"
 							},
 							{
-								"code": "Cognitive impariments with  mixed etiology",
-								"label": "Cognitive impariments with  mixed etiology"
+								"code": "Cognitive impariments with mixed etiology",
+								"label": "Cognitive impariments with mixed etiology"
 							},
 							{
 								"code": "Cognitive impariments with psychiatric etiology",
@@ -1602,7 +1602,7 @@
 							"label": "MoCA",
 							"variables": [{
 								"code": "montrealcognitiveassessment",
-								"description": "The Montreal Cognitive Assessment (MoCA) was designed as a rapid screening instrument for mild cognitive dysfunction. It assesses different  cognitive domains: attention and concentration, executive functions, memory,  language, visuoconstructional skills, conceptual thinking, calculations, and orientation. MoCA Total Scores refer to the final count obtained by patients after the complete test is performed.",
+								"description": "The Montreal Cognitive Assessment (MoCA) was designed as a rapid screening instrument for mild cognitive dysfunction. It assesses different cognitive domains: attention and concentration, executive functions, memory, language, visuoconstructional skills, conceptual thinking, calculations, and orientation. MoCA Total Scores refer to the final count obtained by patients after the complete test is performed.",
 								"label": "MoCA Total",
 								"maxValue": 30,
 								"methodology": "mip-cde",
