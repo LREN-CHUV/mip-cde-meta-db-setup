@@ -1439,16 +1439,16 @@
 								"label": "Subjective cognitive complaints with multiple etiology"
 							},
 							{
-								"code": "Cognitive impariments - other",
-								"label": "Cognitive impariments - other"
+								"code": "Cognitive impairments - other",
+								"label": "Cognitive impairments - other"
 							},
 							{
-								"code": "Cognitive impariments with mixed etiology",
-								"label": "Cognitive impariments with mixed etiology"
+								"code": "Cognitive impairments with mixed etiology",
+								"label": "Cognitive impairments with mixed etiology"
 							},
 							{
-								"code": "Cognitive impariments with psychiatric etiology",
-								"label": "Cognitive impariments with psychiatric etiology"
+								"code": "Cognitive impairments with psychiatric etiology",
+								"label": "Cognitive impairments with psychiatric etiology"
 							},
 							{
 								"code": "Vascular",
