@@ -1739,7 +1739,7 @@
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "set_test_d''isaacs",
+								"code": "set_test_d_isaacs",
 								"description": "",
 								"label": "set_test_d''isaacs",
 								"methodology": "clm-extra",
