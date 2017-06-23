@@ -1613,13 +1613,13 @@
 							"code": "other_scores",
 							"label": "Other scores",
 							"variables": [{
-								"code": "iq-code",
+								"code": "iq_code",
 								"description": "",
 								"label": "iq-code",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "bnt_c/d",
+								"code": "bnt_c_d",
 								"description": "",
 								"label": "bnt_c/d",
 								"methodology": "clm-extra",
@@ -1631,37 +1631,37 @@
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "iadl_(aivq)",
+								"code": "iadl_aivq",
 								"description": "",
-								"label": "iadl_(aivq)",
+								"label": "iadl_aivq",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "had-dépression",
+								"code": "had_depression",
 								"description": "",
 								"label": "had-dépression",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "bnt_a/b",
+								"code": "bnt_a_b",
 								"description": "",
 								"label": "bnt_a/b",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "basic_activities_of_daily_living_(badl)",
+								"code": "basic_activities_of_daily_living_badl",
 								"description": "",
 								"label": "basic_activities_of_daily_living_(badl)",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "had-anxiété",
+								"code": "had_anxiete",
 								"description": "",
 								"label": "had-anxiété",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "disability_assessment_of_dementia_(dad6)",
+								"code": "disability_assessment_of_dementia_dad6",
 								"description": "",
 								"label": "disability_assessment_of_dementia_(dad6)",
 								"methodology": "clm-extra",
@@ -1673,13 +1673,13 @@
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "npi-q_-_sévérité",
+								"code": "npi_q_severite",
 								"description": "",
 								"label": "npi-q_-_sévérité",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "npi-q_-_détresse",
+								"code": "npi_q_detresse",
 								"description": "",
 								"label": "npi-q_-_détresse",
 								"methodology": "clm-extra",
@@ -1715,27 +1715,27 @@
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "tics-f_oral_mots",
+								"code": "tics_f_oral_mots",
 								"description": "",
 								"label": "tics-f_oral_mots",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "tics-f_ecrit_phrases",
+								"code": "tics_f_ecrit_phrases",
 								"description": "",
 								"label": "tics-f_ecrit_phrases",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "figures_enchevêtrées_ben",
+								"code": "figures_enchevetrees_ben",
 								"description": "",
 								"label": "figures_enchevêtrées_ben",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "tics-f_ecrit_mots",
+								"code": "tics_f_ecrit_mots",
 								"description": "",
-								"label": "tics-f_ecrit_mots",
+								"label": "tics_f_ecrit_mots",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
@@ -1745,7 +1745,7 @@
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "mini-zarit",
+								"code": "mini_zarit",
 								"description": "",
 								"label": "mini-zarit",
 								"methodology": "clm-extra",
