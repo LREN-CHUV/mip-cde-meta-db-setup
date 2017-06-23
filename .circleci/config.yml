@@ -1,0 +1,32 @@
+---
+
+version: 2
+jobs:
+  build:
+    working_directory: ~/src
+    docker:
+      - image: tmaier/docker-compose:17.03
+    environment:
+       - CIRCLECI: true
+    steps:
+      - setup_remote_docker
+      - checkout
+      - run:
+          name: "Install requirements"
+          command: |
+            apk add --no-cache bash build-base git py-pip python python-dev curl
+            pip install pre-commit
+            curl -sSL https://raw.githubusercontent.com/harbur/captain/v1.1.0/install.sh | bash
+            pre-commit install
+      - run:
+          name: "Validate code quality"
+          command: |
+            pre-commit run --all-files
+      - run:
+          name: "Build the project"
+          command: |
+            PATH=$PATH:/$HOME/.captain/bin/ ./build.sh
+      - run:
+          name: "Test the project"
+          command: |
+            PATH=$PATH:/$HOME/.captain/bin/ ./tests/test.sh
