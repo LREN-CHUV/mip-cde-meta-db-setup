@@ -1613,12 +1613,6 @@
 							"code": "other_scores",
 							"label": "Other scores",
 							"variables": [{
-								"code": "iq_code",
-								"description": "",
-								"label": "iq-code",
-								"methodology": "clm-extra",
-								"type": "integer"
-							}, {
 								"code": "bnt_c_d",
 								"description": "",
 								"label": "bnt_c/d",
@@ -1637,12 +1631,6 @@
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "had_depression",
-								"description": "",
-								"label": "had-dépression",
-								"methodology": "clm-extra",
-								"type": "integer"
-							}, {
 								"code": "bnt_a_b",
 								"description": "",
 								"label": "bnt_a/b",
@@ -1655,12 +1643,6 @@
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "had_anxiete",
-								"description": "",
-								"label": "had-anxiété",
-								"methodology": "clm-extra",
-								"type": "integer"
-							}, {
 								"code": "disability_assessment_of_dementia_dad6",
 								"description": "",
 								"label": "disability_assessment_of_dementia_(dad6)",
@@ -1670,18 +1652,6 @@
 								"code": "qpc",
 								"description": "",
 								"label": "qpc",
-								"methodology": "clm-extra",
-								"type": "integer"
-							}, {
-								"code": "npi_q_severite",
-								"description": "",
-								"label": "npi-q_-_sévérité",
-								"methodology": "clm-extra",
-								"type": "integer"
-							}, {
-								"code": "npi_q_detresse",
-								"description": "",
-								"label": "npi-q_-_détresse",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
@@ -1715,39 +1685,15 @@
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "tics_f_oral_mots",
-								"description": "",
-								"label": "tics-f_oral_mots",
-								"methodology": "clm-extra",
-								"type": "integer"
-							}, {
-								"code": "tics_f_ecrit_phrases",
-								"description": "",
-								"label": "tics-f_ecrit_phrases",
-								"methodology": "clm-extra",
-								"type": "integer"
-							}, {
 								"code": "figures_enchevetrees_ben",
 								"description": "",
 								"label": "figures_enchevêtrées_ben",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "tics_f_ecrit_mots",
-								"description": "",
-								"label": "tics_f_ecrit_mots",
-								"methodology": "clm-extra",
-								"type": "integer"
-							}, {
 								"code": "set_test_d_isaacs",
 								"description": "",
 								"label": "set_test_d''isaacs",
-								"methodology": "clm-extra",
-								"type": "integer"
-							}, {
-								"code": "mini_zarit",
-								"description": "",
-								"label": "mini-zarit",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}]
