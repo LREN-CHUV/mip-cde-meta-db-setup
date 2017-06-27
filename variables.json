@@ -1393,6 +1393,94 @@
 		{
 			"code": "clinical",
 			"groups": [{
+					"code": "lab",
+					"label": "Lab",
+					"variables": [{
+						"code": "proteinestotglcr",
+						"description": "",
+						"label": "proteinestotglcr",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}, {
+						"code": "banquelcr",
+						"description": "",
+						"label": "banquelcr",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}, {
+						"code": "albuminelcr",
+						"description": "",
+						"label": "albuminelcr",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}, {
+						"code": "lactatelcr",
+						"description": "",
+						"label": "lactatelcr",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}, {
+						"code": "borriggelfalcr",
+						"description": "",
+						"label": "borriggelfalcr",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}, {
+						"code": "bamyloidlcr",
+						"description": "",
+						"label": "bamyloidlcr",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}, {
+						"code": "htauaglcr",
+						"description": "",
+						"label": "htauaglcr",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}, {
+						"code": "proteinestotmglcr",
+						"description": "",
+						"label": "proteinestotmglcr",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}, {
+						"code": "glucoselcr",
+						"description": "",
+						"label": "glucoselcr",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}, {
+						"code": "erythrocyteslcr",
+						"description": "",
+						"label": "erythrocyteslcr",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}, {
+						"code": "nbreleucocyteslcr",
+						"description": "",
+						"label": "nbreleucocyteslcr",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}, {
+						"code": "neutrophileslcr",
+						"description": "",
+						"label": "neutrophileslcr",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}, {
+						"code": "phosphotaulcr",
+						"description": "",
+						"label": "phosphotaulcr",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}, {
+						"code": "borrsynth",
+						"description": "",
+						"label": "borrsynth",
+						"methodology": "clm-extra",
+						"type": "integer"
+					}]
+				}, {
 					"code": "diagnosis",
 					"label": "Diagnosis",
 					"variables": [{
@@ -1613,9 +1701,15 @@
 							"code": "other_scores",
 							"label": "Other scores",
 							"variables": [{
-								"code": "bnt_c_d",
+								"code": "iqcode",
 								"description": "",
-								"label": "bnt_c/d",
+								"label": "iqcode",
+								"methodology": "clm-extra",
+								"type": "integer"
+							}, {
+								"code": "bnt_cd",
+								"description": "",
+								"label": "bnt_cd",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
@@ -1631,27 +1725,51 @@
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "bnt_a_b",
+								"code": "haddepression",
 								"description": "",
-								"label": "bnt_a/b",
+								"label": "haddepression",
+								"methodology": "clm-extra",
+								"type": "integer"
+							}, {
+								"code": "bnt_ab",
+								"description": "",
+								"label": "bnt_ab",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
 								"code": "basic_activities_of_daily_living_badl",
 								"description": "",
-								"label": "basic_activities_of_daily_living_(badl)",
+								"label": "basic_activities_of_daily_living_badl",
+								"methodology": "clm-extra",
+								"type": "integer"
+							}, {
+								"code": "hadanxiete",
+								"description": "",
+								"label": "hadanxiete",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
 								"code": "disability_assessment_of_dementia_dad6",
 								"description": "",
-								"label": "disability_assessment_of_dementia_(dad6)",
+								"label": "disability_assessment_of_dementia_dad6",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
 								"code": "qpc",
 								"description": "",
 								"label": "qpc",
+								"methodology": "clm-extra",
+								"type": "integer"
+							}, {
+								"code": "npiq__severite",
+								"description": "",
+								"label": "npiq__severite",
+								"methodology": "clm-extra",
+								"type": "integer"
+							}, {
+								"code": "npiq__detresse",
+								"description": "",
+								"label": "npiq__detresse",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
@@ -1685,15 +1803,45 @@
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "figures_enchevetrees_ben",
+								"code": "ticsf_oral_mots",
 								"description": "",
-								"label": "figures_enchevêtrées_ben",
+								"label": "ticsf_oral_mots",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}, {
-								"code": "set_test_d_isaacs",
+								"code": "ticsf_oral_phrases",
 								"description": "",
-								"label": "set_test_d''isaacs",
+								"label": "ticsf_oral_phrases",
+								"methodology": "clm-extra",
+								"type": "integer"
+							}, {
+								"code": "ticsf_ecrit_phrases",
+								"description": "",
+								"label": "ticsf_ecrit_phrases",
+								"methodology": "clm-extra",
+								"type": "integer"
+							}, {
+								"code": "figures_enchevetrees_ben",
+								"description": "",
+								"label": "figures_enchevetrees_ben",
+								"methodology": "clm-extra",
+								"type": "integer"
+							}, {
+								"code": "ticsf_ecrit_mots",
+								"description": "",
+								"label": "ticsf_ecrit_mots",
+								"methodology": "clm-extra",
+								"type": "integer"
+							}, {
+								"code": "set_test_disaacs",
+								"description": "",
+								"label": "set_test_disaacs",
+								"methodology": "clm-extra",
+								"type": "integer"
+							}, {
+								"code": "minizarit",
+								"description": "",
+								"label": "minizarit",
 								"methodology": "clm-extra",
 								"type": "integer"
 							}]
