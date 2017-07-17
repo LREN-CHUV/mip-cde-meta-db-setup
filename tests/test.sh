@@ -24,7 +24,7 @@ else
   DOCKER_COMPOSE="sudo docker-compose"
 fi
 
-$DOCKER_COMPOSE up -d meta_db
+$DOCKER_COMPOSE up -d --remove-orphans meta_db
 $DOCKER_COMPOSE run wait_dbs
 
 echo

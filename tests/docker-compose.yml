@@ -16,6 +16,7 @@ services:
       - "meta_db:meta_db"
     environment:
       - TARGETS=meta_db:5432
+      - TIMEOUT=60
 
   # Use the latest image built as this is what is under test
   meta_db_setup:
