@@ -30,7 +30,12 @@ $DOCKER_COMPOSE run wait_dbs
 echo
 echo "Test initial database migration"
 $DOCKER_COMPOSE run meta_db_setup
-$DOCKER_COMPOSE run meta_db_check
+$DOCKER_COMPOSE run meta_db_setup
+if [ $CIRCLECI ]; then
+  $DOCKER_COMPOSE run meta_db_check_ci
+else
+  $DOCKER_COMPOSE run meta_db_check
+fi
 
 echo
 echo "Test idempotence"
