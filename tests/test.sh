@@ -35,7 +35,11 @@ $DOCKER_COMPOSE run meta_db_check
 echo
 echo "Test idempotence"
 $DOCKER_COMPOSE run meta_db_setup
-$DOCKER_COMPOSE run meta_db_check
+if [ $CIRCLECI ]; then
+  $DOCKER_COMPOSE run meta_db_check_ci
+else
+  $DOCKER_COMPOSE run meta_db_check
+fi
 
 # Cleanup
 echo

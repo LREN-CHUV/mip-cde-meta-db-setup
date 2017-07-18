@@ -45,3 +45,18 @@ services:
       - ./sql:/test
     links:
       - "meta_db:db"
+
+  # Special mapping as Docker-in-docker sees volumes from the host machine
+  meta_db_check_ci:
+    image: "hbpmip/pgtap:0.96.0-3"
+    container_name: "meta-db-check"
+    environment:
+      - HOST=db
+      - PORT=5432
+      - DATABASE=meta
+      - USER=meta
+      - PASSWORD=meta
+    volumes:
+      - /root/src/tests/sql:/test
+    links:
+      - "meta_db:db"
