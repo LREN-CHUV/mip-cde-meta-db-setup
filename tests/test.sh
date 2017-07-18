@@ -31,7 +31,6 @@ $DOCKER_COMPOSE build meta_db_check
 echo
 echo "Test initial database migration"
 $DOCKER_COMPOSE run meta_db_setup
-$DOCKER_COMPOSE run meta_db_setup
 $DOCKER_COMPOSE run meta_db_check
 
 echo
