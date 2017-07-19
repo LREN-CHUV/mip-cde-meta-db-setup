@@ -1,5 +1,5 @@
 [![CHUV](https://img.shields.io/badge/CHUV-LREN-AF4C64.svg)](https://www.unil.ch/lren/en/home.html) [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://github.com/LREN-CHUV/mip-cde-meta-db-setup/blob/master/LICENSE)
-[![build status](https://gitlab.com/hbpmip/mip-cde-meta-db-setup/badges/master/build.svg)](https://gitlab.com/hbpmip/mip-cde-meta-db-setup/commits/master)
+[![CircleCI](https://circleci.com/gh/HBPMedical/mip-cde-meta-db-setup.svg?style=svg)](https://circleci.com/gh/HBPMedical/mip-cde-meta-db-setup)
 
 # Setup for database 'meta-db' with the selection of variables for mip-cde
 

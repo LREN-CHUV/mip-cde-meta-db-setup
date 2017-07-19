@@ -1,4 +1,4 @@
-mip_cde_meta_db_setup:
+target_image:
   build: Dockerfile
   image: hbpmip/mip-cde-meta-db-setup
   pre:
