@@ -13,20 +13,21 @@
               "description": "Apolipoprotein E (APOE) e4 allele: is the strongest risk factor for Late Onset Alzheimer Disease (LOAD). At least one copy of APOE-e4 ",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "ApoE4",
               "methodology": "adni-merge",
+              "sql_type": "int",
               "type": "polynominal"
             },
             {
@@ -34,20 +35,21 @@
               "description": "",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "rs3818361_T",
               "methodology": "lren-nmm-volumes",
+              "sql_type": "int",
               "type": "polynominal"
             },
             {
@@ -55,20 +57,21 @@
               "description": "",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "rs744373_C",
               "methodology": "lren-nmm-volumes",
+              "sql_type": "int",
               "type": "polynominal"
             },
             {
@@ -76,20 +79,21 @@
               "description": "",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "rs190982_G",
               "methodology": "lren-nmm-volumes",
+              "sql_type": "int",
               "type": "polynominal"
             },
             {
@@ -97,20 +101,21 @@
               "description": "",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "rs1476679_C",
               "methodology": "lren-nmm-volumes",
+              "sql_type": "int",
               "type": "polynominal"
             },
             {
@@ -118,20 +123,21 @@
               "description": "",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "rs11767557_C",
               "methodology": "lren-nmm-volumes",
+              "sql_type": "int",
               "type": "polynominal"
             },
             {
@@ -139,20 +145,21 @@
               "description": "",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "rs11136000_T",
               "methodology": "lren-nmm-volumes",
+              "sql_type": "int",
               "type": "polynominal"
             },
             {
@@ -160,20 +167,21 @@
               "description": "",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "rs610932_A",
               "methodology": "lren-nmm-volumes",
+              "sql_type": "int",
               "type": "polynominal"
             },
             {
@@ -181,20 +189,21 @@
               "description": "",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "rs3851179_A",
               "methodology": "lren-nmm-volumes",
+              "sql_type": "int",
               "type": "polynominal"
             },
             {
@@ -202,20 +211,21 @@
               "description": "",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "rs17125944_C",
               "methodology": "lren-nmm-volumes",
+              "sql_type": "int",
               "type": "polynominal"
             },
             {
@@ -223,20 +233,21 @@
               "description": "",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "rs10498633_T",
               "methodology": "lren-nmm-volumes",
+              "sql_type": "int",
               "type": "polynominal"
             },
             {
@@ -244,20 +255,21 @@
               "description": "",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "rs3764650_G",
               "methodology": "lren-nmm-volumes",
+              "sql_type": "int",
               "type": "polynominal"
             },
             {
@@ -265,20 +277,21 @@
               "description": "",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "rs3865444_T",
               "methodology": "lren-nmm-volumes",
+              "sql_type": "int",
               "type": "polynominal"
             },
             {
@@ -286,20 +299,21 @@
               "description": "",
               "enumerations": [
                 {
-                  "code": "0",
-                  "label": "0"
+                  "code": 0,
+                  "label": 0
                 },
                 {
-                  "code": "1",
-                  "label": "1"
+                  "code": 1,
+                  "label": 1
                 },
                 {
-                  "code": "2",
-                  "label": "2"
+                  "code": 2,
+                  "label": 2
                 }
               ],
               "label": "rs2718058_G",
               "methodology": "lren-nmm-volumes",
+              "sql_type": "int",
               "type": "polynominal"
             }
           ]
@@ -357,7 +371,6 @@
                       "code": "rightinflatvent",
                       "description": "",
                       "label": "Right inferior lateral ventricle",
-                      "length": 20,
                       "methodology": "lren-nmm-volumes",
                       "type": "real",
                       "units": "cm3"
@@ -366,7 +379,6 @@
                       "code": "leftinflatvent",
                       "description": "",
                       "label": "Left inferior lateral ventricle",
-                      "length": 20,
                       "methodology": "lren-nmm-volumes",
                       "type": "real",
                       "units": "cm3"
@@ -375,7 +387,6 @@
                       "code": "rightlateralventricle",
                       "description": "",
                       "label": "Right lateral ventricle",
-                      "length": 20,
                       "methodology": "lren-nmm-volumes",
                       "type": "real",
                       "units": "cm3"
@@ -384,7 +395,6 @@
                       "code": "leftlateralventricle",
                       "description": "",
                       "label": "Left lateral ventricle",
-                      "length": 20,
                       "methodology": "lren-nmm-volumes",
                       "type": "real",
                       "units": "cm3"
@@ -393,7 +403,6 @@
                       "code": "3rdventricle",
                       "description": "",
                       "label": "3rd Ventricle",
-                      "length": 20,
                       "methodology": "lren-nmm-volumes",
                       "type": "real",
                       "units": "cm3"
@@ -402,7 +411,6 @@
                       "code": "4thventricle",
                       "description": "",
                       "label": "4th Ventricle",
-                      "length": 20,
                       "methodology": "lren-nmm-volumes",
                       "type": "real",
                       "units": "cm3"
@@ -411,7 +419,6 @@
                       "code": "csfglobal",
                       "description": "",
                       "label": "CSF global",
-                      "length": 20,
                       "methodology": "lren-nmm-volumes",
                       "type": "real",
                       "units": "cm3"
@@ -426,7 +433,6 @@
                       "code": "rightcerebellumwhitematter",
                       "description": "",
                       "label": "Right Cerebellum White Matter",
-                      "length": 20,
                       "methodology": "lren-nmm-volumes",
                       "type": "real",
                       "units": "cm3"
@@ -435,7 +441,6 @@
                       "code": "leftcerebellumwhitematter",
                       "description": "",
                       "label": "Left Cerebellum White Matter",
-                      "length": 20,
                       "methodology": "lren-nmm-volumes",
                       "type": "real",
                       "units": "cm3"
@@ -444,7 +449,6 @@
                       "code": "rightcerebralwhitematter",
                       "description": "",
                       "label": "Right Cerebral White Matter",
-                      "length": 20,
                       "methodology": "lren-nmm-volumes",
                       "type": "real",
                       "units": "cm3"
@@ -453,7 +457,6 @@
                       "code": "leftcerebralwhitematter",
                       "description": "",
                       "label": "Left Cerebral White Matter",
-                      "length": 20,
                       "methodology": "lren-nmm-volumes",
                       "type": "real",
                       "units": "cm3"
@@ -462,7 +465,6 @@
                       "code": "opticchiasm",
                       "description": "",
                       "label": "Optic chiasm",
-                      "length": 20,
                       "methodology": "lren-nmm-volumes",
                       "type": "real",
                       "units": "cm3"
@@ -480,7 +482,6 @@
                           "code": "cerebellarvermallobulesviiix",
                           "description": "",
                           "label": "Cerebellar Vermal Lobules VIII-X",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -489,7 +490,6 @@
                           "code": "cerebellarvermallobulesvivii",
                           "description": "",
                           "label": "Cerebellar Vermal Lobules VI-VII",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -498,7 +498,6 @@
                           "code": "cerebellarvermallobulesiv",
                           "description": "",
                           "label": "Cerebellar Vermal Lobules I-V",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -507,7 +506,6 @@
                           "code": "leftcerebellumexterior",
                           "description": "",
                           "label": "Left Cerebellum Exterior",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -516,7 +514,6 @@
                           "code": "rightcerebellumexterior",
                           "description": "",
                           "label": "Right Cerebellum Exterior",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -534,7 +531,6 @@
                               "code": "rightbasalforebrain",
                               "description": "",
                               "label": "Right Basal Forebrain",
-                              "length": 20,
                               "methodology": "lren-nmm-volumes",
                               "type": "real",
                               "units": "cm3"
@@ -543,7 +539,6 @@
                               "code": "leftbasalforebrain",
                               "description": "",
                               "label": "Left Basal Forebrain",
-                              "length": 20,
                               "methodology": "lren-nmm-volumes",
                               "type": "real",
                               "units": "cm3"
@@ -552,7 +547,6 @@
                               "code": "rightaccumbensarea",
                               "description": "",
                               "label": "Right Accumbens Area",
-                              "length": 20,
                               "methodology": "lren-nmm-volumes",
                               "type": "real",
                               "units": "cm3"
@@ -561,7 +555,6 @@
                               "code": "leftaccumbensarea",
                               "description": "",
                               "label": "Left Accumbens Area",
-                              "length": 20,
                               "methodology": "lren-nmm-volumes",
                               "type": "real",
                               "units": "cm3"
@@ -570,7 +563,6 @@
                               "code": "rightcaudate",
                               "description": "",
                               "label": "Right Caudate",
-                              "length": 20,
                               "methodology": "lren-nmm-volumes",
                               "type": "real",
                               "units": "cm3"
@@ -579,7 +571,6 @@
                               "code": "leftcaudate",
                               "description": "",
                               "label": "Left Caudate",
-                              "length": 20,
                               "methodology": "lren-nmm-volumes",
                               "type": "real",
                               "units": "cm3"
@@ -588,7 +579,6 @@
                               "code": "rightpallidum",
                               "description": "",
                               "label": "Right Pallidum",
-                              "length": 20,
                               "methodology": "lren-nmm-volumes",
                               "type": "real",
                               "units": "cm3"
@@ -597,7 +587,6 @@
                               "code": "leftpallidum",
                               "description": "",
                               "label": "Left Pallidum",
-                              "length": 20,
                               "methodology": "lren-nmm-volumes",
                               "type": "real",
                               "units": "cm3"
@@ -606,7 +595,6 @@
                               "code": "rightputamen",
                               "description": "",
                               "label": "Right Putamen",
-                              "length": 20,
                               "methodology": "lren-nmm-volumes",
                               "type": "real",
                               "units": "cm3"
@@ -615,7 +603,6 @@
                               "code": "leftputamen",
                               "description": "",
                               "label": "Left Putamen",
-                              "length": 20,
                               "methodology": "lren-nmm-volumes",
                               "type": "real",
                               "units": "cm3"
@@ -630,7 +617,6 @@
                               "code": "rightamygdala",
                               "description": "",
                               "label": "Right Amygdala",
-                              "length": 20,
                               "methodology": "lren-nmm-volumes",
                               "type": "real",
                               "units": "cm3"
@@ -639,7 +625,6 @@
                               "code": "leftamygdala",
                               "description": "",
                               "label": "Left Amygdala",
-                              "length": 20,
                               "methodology": "lren-nmm-volumes",
                               "type": "real",
                               "units": "cm3"
@@ -657,7 +642,6 @@
                           "code": "righthippocampus",
                           "description": "",
                           "label": "Right Hippocampus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -666,7 +650,6 @@
                           "code": "lefthippocampus",
                           "description": "",
                           "label": "Left Hippocampus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -675,7 +658,6 @@
                           "code": "rightthalamusproper",
                           "description": "",
                           "label": "Right Thalamus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -684,7 +666,6 @@
                           "code": "leftthalamusproper",
                           "description": "",
                           "label": "Left Thalamus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -693,7 +674,6 @@
                           "code": "rightacgganteriorcingulategyrus",
                           "description": "",
                           "label": "Right anterior cingulate gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -702,7 +682,6 @@
                           "code": "leftacgganteriorcingulategyrus",
                           "description": "",
                           "label": "Left anterior cingulate gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -711,7 +690,6 @@
                           "code": "rightententorhinalarea",
                           "description": "",
                           "label": "Right entorhinal area",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -720,7 +698,6 @@
                           "code": "leftententorhinalarea",
                           "description": "",
                           "label": "Left entorhinal area",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -729,7 +706,6 @@
                           "code": "rightmcggmiddlecingulategyrus",
                           "description": "",
                           "label": "Right middle cingulate gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -738,7 +714,6 @@
                           "code": "leftmcggmiddlecingulategyrus",
                           "description": "",
                           "label": "Left middle cingulate gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -747,7 +722,6 @@
                           "code": "rightpcggposteriorcingulategyrus",
                           "description": "",
                           "label": "Right posterior cingulate gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -756,7 +730,6 @@
                           "code": "leftpcggposteriorcingulategyrus",
                           "description": "",
                           "label": "Left posterior cingulate gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -765,7 +738,6 @@
                           "code": "rightphgparahippocampalgyrus",
                           "description": "",
                           "label": "Right parahippocampal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -774,7 +746,6 @@
                           "code": "leftphgparahippocampalgyrus",
                           "description": "",
                           "label": "Left parahippocampal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -789,7 +760,6 @@
                           "code": "rightfugfusiformgyrus",
                           "description": "",
                           "label": "Right fusiform gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -798,7 +768,6 @@
                           "code": "leftfugfusiformgyrus",
                           "description": "",
                           "label": "Left fusiform gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -807,7 +776,6 @@
                           "code": "rightitginferiortemporalgyrus",
                           "description": "",
                           "label": "Right inferior temporal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -816,7 +784,6 @@
                           "code": "leftitginferiortemporalgyrus",
                           "description": "",
                           "label": "Left inferior temporal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -825,7 +792,6 @@
                           "code": "rightmtgmiddletemporalgyrus",
                           "description": "",
                           "label": "Right middle temporal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -834,7 +800,6 @@
                           "code": "leftmtgmiddletemporalgyrus",
                           "description": "",
                           "label": "Left middle temporal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -843,7 +808,6 @@
                           "code": "rightppplanumpolare",
                           "description": "",
                           "label": "Right planum polare",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -852,7 +816,6 @@
                           "code": "leftppplanumpolare",
                           "description": "",
                           "label": "Left planum polare",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -861,7 +824,6 @@
                           "code": "rightptplanumtemporale",
                           "description": "",
                           "label": "Right planum temporale",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -870,7 +832,6 @@
                           "code": "leftptplanumtemporale",
                           "description": "",
                           "label": "Left planum temporale",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -879,7 +840,6 @@
                           "code": "rightstgsuperiortemporalgyrus",
                           "description": "",
                           "label": "Right superior temporal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -888,7 +848,6 @@
                           "code": "leftstgsuperiortemporalgyrus",
                           "description": "",
                           "label": "Left superior temporal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -897,7 +856,6 @@
                           "code": "righttmptemporalpole",
                           "description": "",
                           "label": "Right temporal pole",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -906,7 +864,6 @@
                           "code": "lefttmptemporalpole",
                           "description": "",
                           "label": "Left temporal pole",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -915,7 +872,6 @@
                           "code": "rightttgtransversetemporalgyrus",
                           "description": "",
                           "label": "Right transverse temporal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -924,7 +880,6 @@
                           "code": "leftttgtransversetemporalgyrus",
                           "description": "",
                           "label": "Left transverse temporal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -939,7 +894,6 @@
                           "code": "rightcalccalcarinecortex",
                           "description": "",
                           "label": "Right calcarine cortex",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -948,7 +902,6 @@
                           "code": "leftcalccalcarinecortex",
                           "description": "",
                           "label": "Left calcarine cortex",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -957,7 +910,6 @@
                           "code": "rightcuncuneus",
                           "description": "",
                           "label": "Right cuneus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -966,7 +918,6 @@
                           "code": "leftcuncuneus",
                           "description": "",
                           "label": "Left cuneus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -975,7 +926,6 @@
                           "code": "rightioginferioroccipitalgyrus",
                           "description": "",
                           "label": "Right inferior occipital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -984,7 +934,6 @@
                           "code": "leftioginferioroccipitalgyrus",
                           "description": "",
                           "label": "Left inferior occipital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -993,7 +942,6 @@
                           "code": "rightliglingualgyrus",
                           "description": "",
                           "label": "Right lingual gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1002,7 +950,6 @@
                           "code": "leftliglingualgyrus",
                           "description": "",
                           "label": "Left lingual gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1011,7 +958,6 @@
                           "code": "rightmogmiddleoccipitalgyrus",
                           "description": "",
                           "label": "Right middle occipital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1020,7 +966,6 @@
                           "code": "leftmogmiddleoccipitalgyrus",
                           "description": "",
                           "label": "Left middle occipital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1029,7 +974,6 @@
                           "code": "rightocpoccipitalpole",
                           "description": "",
                           "label": "Right occipital pole",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1038,7 +982,6 @@
                           "code": "leftocpoccipitalpole",
                           "description": "",
                           "label": "Left occipital pole",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1047,7 +990,6 @@
                           "code": "rightofugoccipitalfusiformgyrus",
                           "description": "",
                           "label": "Right occipital fusiform gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1056,7 +998,6 @@
                           "code": "leftofugoccipitalfusiformgyrus",
                           "description": "",
                           "label": "Left occipital fusiform gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1065,7 +1006,6 @@
                           "code": "rightsogsuperioroccipitalgyrus",
                           "description": "",
                           "label": "Right superior occipital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1074,7 +1014,6 @@
                           "code": "leftsogsuperioroccipitalgyrus",
                           "description": "",
                           "label": "Left superior occipital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1089,7 +1028,6 @@
                           "code": "rightangangulargyrus",
                           "description": "",
                           "label": "Right angular gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1098,7 +1036,6 @@
                           "code": "leftangangulargyrus",
                           "description": "",
                           "label": "Left angular gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1107,7 +1044,6 @@
                           "code": "rightmpogpostcentralgyrusmedialsegment",
                           "description": "",
                           "label": "Right postcentral gyrus medial segment",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1116,7 +1052,6 @@
                           "code": "leftmpogpostcentralgyrusmedialsegment",
                           "description": "",
                           "label": "Left postcentral gyrus medial segment",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1125,7 +1060,6 @@
                           "code": "rightpcuprecuneus",
                           "description": "",
                           "label": "Right precuneus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1134,7 +1068,6 @@
                           "code": "leftpcuprecuneus",
                           "description": "",
                           "label": "Left precuneus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1143,7 +1076,6 @@
                           "code": "rightpogpostcentralgyrus",
                           "description": "",
                           "label": "Right postcentral gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1152,7 +1084,6 @@
                           "code": "leftpogpostcentralgyrus",
                           "description": "",
                           "label": "Left postcentral gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1161,7 +1092,6 @@
                           "code": "rightsmgsupramarginalgyrus",
                           "description": "",
                           "label": "Right supramarginal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1170,7 +1100,6 @@
                           "code": "leftsmgsupramarginalgyrus",
                           "description": "",
                           "label": "Left supramarginal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1179,7 +1108,6 @@
                           "code": "rightsplsuperiorparietallobule",
                           "description": "",
                           "label": "Right superior parietal lobule",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1188,7 +1116,6 @@
                           "code": "leftsplsuperiorparietallobule",
                           "description": "",
                           "label": "Left superior parietal lobule",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1203,7 +1130,6 @@
                           "code": "rightaorganteriororbitalgyrus",
                           "description": "",
                           "label": "Right anterior orbital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1212,7 +1138,6 @@
                           "code": "leftaorganteriororbitalgyrus",
                           "description": "",
                           "label": "Left anterior orbital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1221,7 +1146,6 @@
                           "code": "rightcocentraloperculum",
                           "description": "",
                           "label": "Right central operculum",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1230,7 +1154,6 @@
                           "code": "leftcocentraloperculum",
                           "description": "",
                           "label": "Left central operculum",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1239,7 +1162,6 @@
                           "code": "rightfofrontaloperculum",
                           "description": "",
                           "label": "Right frontal operculum",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1248,7 +1170,6 @@
                           "code": "leftfofrontaloperculum",
                           "description": "",
                           "label": "Left frontal operculum",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1257,7 +1178,6 @@
                           "code": "rightfrpfrontalpole",
                           "description": "",
                           "label": "Right frontal pole",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1266,7 +1186,6 @@
                           "code": "leftfrpfrontalpole",
                           "description": "",
                           "label": "Left frontal pole",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1275,7 +1194,6 @@
                           "code": "rightgregyrusrectus",
                           "description": "",
                           "label": "Right gyrus rectus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1284,7 +1202,6 @@
                           "code": "leftgregyrusrectus",
                           "description": "",
                           "label": "Left gyrus rectus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1293,7 +1210,6 @@
                           "code": "rightlorglateralorbitalgyrus",
                           "description": "",
                           "label": "Right lateral orbital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1302,7 +1218,6 @@
                           "code": "leftlorglateralorbitalgyrus",
                           "description": "",
                           "label": "Left lateral orbital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1311,7 +1226,6 @@
                           "code": "rightmfcmedialfrontalcortex",
                           "description": "",
                           "label": "Right medial frontal cortex",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1320,7 +1234,6 @@
                           "code": "leftmfcmedialfrontalcortex",
                           "description": "",
                           "label": "Left medial frontal cortex",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1329,7 +1242,6 @@
                           "code": "rightmfgmiddlefrontalgyrus",
                           "description": "",
                           "label": "Right middle frontal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1338,7 +1250,6 @@
                           "code": "leftmfgmiddlefrontalgyrus",
                           "description": "",
                           "label": "Left middle frontal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1347,7 +1258,6 @@
                           "code": "rightmorgmedialorbitalgyrus",
                           "description": "",
                           "label": "Right medial orbital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1356,7 +1266,6 @@
                           "code": "leftmorgmedialorbitalgyrus",
                           "description": "",
                           "label": "Left medial orbital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1365,7 +1274,6 @@
                           "code": "rightmprgprecentralgyrusmedialsegment",
                           "description": "",
                           "label": "Right precentral gyrus medial segment",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1374,7 +1282,6 @@
                           "code": "leftmprgprecentralgyrusmedialsegment",
                           "description": "",
                           "label": "Left precentral gyrus medial segment",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1383,7 +1290,6 @@
                           "code": "rightmsfgsuperiorfrontalgyrusmedialsegment",
                           "description": "",
                           "label": "Right superior frontal gyrus medial segment",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1392,7 +1298,6 @@
                           "code": "leftmsfgsuperiorfrontalgyrusmedialsegment",
                           "description": "",
                           "label": "Left superior frontal gyrus medial segment",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1401,7 +1306,6 @@
                           "code": "rightopifgopercularpartoftheinferiorfrontalgyrus",
                           "description": "",
                           "label": "Right opercular part of the inferior frontal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1410,7 +1314,6 @@
                           "code": "leftopifgopercularpartoftheinferiorfrontalgyrus",
                           "description": "",
                           "label": "Left opercular part of the inferior frontal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1419,7 +1322,6 @@
                           "code": "rightorifgorbitalpartoftheinferiorfrontalgyrus",
                           "description": "",
                           "label": "Right orbital part of the inferior frontal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1428,7 +1330,6 @@
                           "code": "leftorifgorbitalpartoftheinferiorfrontalgyrus",
                           "description": "",
                           "label": "Left orbital part of the inferior frontal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1437,7 +1338,6 @@
                           "code": "rightpoparietaloperculum",
                           "description": "",
                           "label": "Right parietal operculum",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1446,7 +1346,6 @@
                           "code": "leftpoparietaloperculum",
                           "description": "",
                           "label": "Left parietal operculum",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1455,7 +1354,6 @@
                           "code": "rightporgposteriororbitalgyrus",
                           "description": "",
                           "label": "Right posterior orbital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1464,7 +1362,6 @@
                           "code": "leftporgposteriororbitalgyrus",
                           "description": "",
                           "label": "Left posterior orbital gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1473,7 +1370,6 @@
                           "code": "rightprgprecentralgyrus",
                           "description": "",
                           "label": "Right precentral gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1482,7 +1378,6 @@
                           "code": "leftprgprecentralgyrus",
                           "description": "",
                           "label": "Left precentral gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1491,7 +1386,6 @@
                           "code": "rightscasubcallosalarea",
                           "description": "",
                           "label": "Right subcallosal area",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1500,7 +1394,6 @@
                           "code": "leftscasubcallosalarea",
                           "description": "",
                           "label": "Left subcallosal area",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1509,7 +1402,6 @@
                           "code": "rightsfgsuperiorfrontalgyrus",
                           "description": "",
                           "label": "Right superior frontal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1518,7 +1410,6 @@
                           "code": "leftsfgsuperiorfrontalgyrus",
                           "description": "",
                           "label": "Left superior frontal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1527,7 +1418,6 @@
                           "code": "rightsmcsupplementarymotorcortex",
                           "description": "",
                           "label": "Right supplementary motor cortex",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1536,7 +1426,6 @@
                           "code": "leftsmcsupplementarymotorcortex",
                           "description": "",
                           "label": "Left supplementary motor cortex",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1545,7 +1434,6 @@
                           "code": "righttrifgtriangularpartoftheinferiorfrontalgyrus",
                           "description": "",
                           "label": "Right triangular part of the inferior frontal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1554,7 +1442,6 @@
                           "code": "lefttrifgtriangularpartoftheinferiorfrontalgyrus",
                           "description": "",
                           "label": "Left triangular part of the inferior frontal gyrus",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1569,7 +1456,6 @@
                           "code": "rightainsanteriorinsula",
                           "description": "",
                           "label": "Right anterior insula",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1578,7 +1464,6 @@
                           "code": "leftainsanteriorinsula",
                           "description": "",
                           "label": "Left anterior insula",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1587,7 +1472,6 @@
                           "code": "rightpinsposteriorinsula",
                           "description": "",
                           "label": "Right posterior insula",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1596,7 +1480,6 @@
                           "code": "leftpinsposteriorinsula",
                           "description": "",
                           "label": "Left posterior insula",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1611,7 +1494,6 @@
                           "code": "rightventraldc",
                           "description": "",
                           "label": "Right Ventral DC",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -1620,7 +1502,6 @@
                           "code": "leftventraldc",
                           "description": "",
                           "label": "Left Ventral DC",
-                          "length": 20,
                           "methodology": "lren-nmm-volumes",
                           "type": "real",
                           "units": "cm3"
@@ -2362,5 +2243,5 @@
       ]
     }
   ],
-  "label": "root"
+  "label": "/"
 }
