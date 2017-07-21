@@ -1554,14 +1554,14 @@
           "units": "years"
         },
         {
-          "code": "subjectagemonths",
-          "description": "Months part of subject age. (Add it to subject age in years to get a better precision).",
-          "label": "Age Months",
+          "code": "subjectage",
+          "description": "Exact age of the subject, for datasets that allow such precision.",
+          "label": "Exact age",
           "length": 2,
           "maxValue": 11,
           "methodology": "mip-cde",
           "minValue": 0,
-          "type": "integer",
+          "type": "real",
           "units": "months"
         },
         {
