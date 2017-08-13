@@ -8,8 +8,7 @@ This project uses Flyway to manage the database migration scripts for the 'meta-
 
 This database contains the metadata used for reference, including:
 
-* the list of variables and groups for the Common Data Elements (CDE) defined by MIP.
-* the list of variables and groups for mip-cde
+* the list of variables and groups for the Common Data Elements (CDE) defined by MIP, under alias `mip-cde`.
 
 ## Usage
 
