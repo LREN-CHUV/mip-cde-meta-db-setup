@@ -3,7 +3,7 @@ description: "Base Docker image to manage installation of the metadata defininin
 long_description: |
   This Docker image uses Flyway to manage the database migration scripts for the 'meta-db' database used by MIP.
 
-  This database contains the metadata used for reference, including:
+  This database contains the metadata used for reference, including\:
 
   * the list of variables and groups for the Common Data Elements (CDE) defined by MIP, under alias `mip-cde`.
 
@@ -87,6 +87,6 @@ related_projects:
   - name: data-db-setup
     mip_building_block: reference
     relationship: see-also
-  - name: mip-cde-mip-cde-meta-db-setup
+  - name: mip-cde-meta-db-setup
     mip_building_block: reference
     relationship: other-depends-on
