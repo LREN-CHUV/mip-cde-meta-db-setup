@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This project uses Flyway to manage the database migration scripts for the 'meta-db' database used by MIP.
+This Docker image uses Flyway to manage the database migration scripts for the 'meta-db' database used by MIP.
 
 This database contains the metadata used for reference, including:
 
