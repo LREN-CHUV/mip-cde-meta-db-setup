@@ -6,7 +6,7 @@ ARG VCS_REF
 ARG VERSION
 
 COPY variables.json /src/variables/mip-cde.json
-ENV DATA_ELEMENTS="mip-cde|MIP_CDE_DATA"
+ENV DATA_ELEMENTS="mip-cde|MIP_CDE_FEATURES"
 
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="hbpmip/mip-cde-meta-db-setup" \
