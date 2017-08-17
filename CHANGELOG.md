@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 1.0.0 - 2017-08-17
+
+* First stable version of this setup, based on meta-db-setup version 2.0.0. We will ensure smooth upgrades from now on.
+
 ## 0.5.1 - 2017-08-17
 
 * Rename target table to MIP_CDE_FEATURES
