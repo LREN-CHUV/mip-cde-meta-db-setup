@@ -84,9 +84,9 @@ planning:
     url: https://github.com/LREN-CHUV/mip-cde-meta-db-setup/issues
 
 related_projects:
-  - name: data-db-setup
+  - name: meta-db-setup
+    mip_building_block: reference
+    relationship: depend-on-other
+  - name: mip-cde-data-db-setup
     mip_building_block: reference
     relationship: see-also
-  - name: mip-cde-meta-db-setup
-    mip_building_block: reference
-    relationship: other-depends-on
