@@ -1,4 +1,4 @@
-FROM hbpmip/meta-db-setup:2.0.0
+FROM hbpmip/meta-db-setup:2.1.0
 MAINTAINER Ludovic Claude <ludovic.claude@chuv.ch>
 
 ARG BUILD_DATE
@@ -6,7 +6,7 @@ ARG VCS_REF
 ARG VERSION
 
 COPY variables.json /src/variables/mip-cde.json
-ENV DATA_ELEMENTS="mip-cde|MIP_CDE_FEATURES"
+ENV DATA_ELEMENTS="mip-cde|MIP_CDE_FEATURES|dataset,gender,agegroup,alzheimerbroadcategory"
 
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="hbpmip/mip-cde-meta-db-setup" \
