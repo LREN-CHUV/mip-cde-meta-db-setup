@@ -400,7 +400,7 @@
                       "units": "cm3"
                     },
                     {
-                      "code": "3rdventricle",
+                      "code": "_3rdventricle",
                       "description": "",
                       "label": "3rd Ventricle",
                       "methodology": "lren-nmm-volumes",
@@ -408,7 +408,7 @@
                       "units": "cm3"
                     },
                     {
-                      "code": "4thventricle",
+                      "code": "_4thventricle",
                       "description": "",
                       "label": "4th Ventricle",
                       "methodology": "lren-nmm-volumes",
