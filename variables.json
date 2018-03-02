@@ -1619,6 +1619,32 @@
     },
     {
       "code": "neuropsychology",
+      "groups": [
+        {
+          "code": "updrs",
+          "label": "UPDRS",
+          "variables": [
+            {
+              "code": "updrstotal",
+              "description": "The unified Parkinson''s disease rating scale (UPDRS) is used to follow the longitudinal course of Parkinson''s disease. The UPD rating scale is the most commonly used scale in the clinical study of Parkinson''s disease.",
+              "label": "UPDRS - Unified Parkinson Disease Rating Scale",
+              "maxValue": 172,
+              "methodology": "mip-cde",
+              "minValue": 0,
+              "type": "integer"
+            },
+            {
+              "code": "updrshy",
+              "description": "The Hoehn and Yahr scale (HY) is a widely used clinical rating scale, which defines broad categories of motor function in Parkinson\u2019s disease (PD). It captures typical patterns of progressive motor impairment.",
+              "label": "UPDRS HY - Hoehn and Yahr scale",
+              "maxValue": 5,
+              "methodology": "mip-cde",
+              "minValue": 0,
+              "type": "integer"
+            }
+          ]
+        }
+      ],
       "label": "Neuropsychology",
       "variables": [
         {
@@ -1635,24 +1661,6 @@
           "description": "The Montreal Cognitive Assessment (MoCA) was designed as a rapid screening instrument for mild cognitive dysfunction. It assesses different cognitive domains: attention and concentration, executive functions, memory, language, visuoconstructional skills, conceptual thinking, calculations, and orientation. MoCA Total Scores refer to the final count obtained by patients after the complete test is performed.",
           "label": "MoCA - Montreal Cognitive Assessment",
           "maxValue": 30,
-          "methodology": "mip-cde",
-          "minValue": 0,
-          "type": "integer"
-        },
-        {
-          "code": "updrstotal",
-          "description": "The unified Parkinson''s disease rating scale (UPDRS) is used to follow the longitudinal course of Parkinson''s disease. The UPD rating scale is the most commonly used scale in the clinical study of Parkinson''s disease.",
-          "label": "UPDRS - Unified Parkinson Disease Rating Scale",
-          "maxValue": 172,
-          "methodology": "mip-cde",
-          "minValue": 0,
-          "type": "integer"
-        },
-        {
-          "code": "updrshy",
-          "description": "The Hoehn and Yahr scale (HY) is a widely used clinical rating scale, which defines broad categories of motor function in Parkinson\u2019s disease (PD). It captures typical patterns of progressive motor impairment.",
-          "label": "UPDRS HY - Hoehn and Yahr scale",
-          "maxValue": 5,
           "methodology": "mip-cde",
           "minValue": 0,
           "type": "integer"
