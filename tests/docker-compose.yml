@@ -1,27 +1,28 @@
-version: '2'
+version: '3.0'
 
 services:
 
-  meta_db:
+  db:
     image: "postgres:9.6.5-alpine"
-    container_name: "meta-db"
     restart: unless-stopped
+    ports:
+      - "5432:5432"
     environment:
       - POSTGRES_USER=meta
       - POSTGRES_PASSWORD=meta
 
   wait_dbs:
     image: "waisbrot/wait"
-    links:
-      - "meta_db:meta_db"
+    restart: "no"
     environment:
-      - TARGETS=meta_db:5432
-      - TIMEOUT=60
+      TARGETS: "db:5432"
+      TIMEOUT: 60
+    depends_on:
+      - db
 
   # Use the latest image built as this is what is under test
   meta_db_setup:
     image: "hbpmip/mip-cde-meta-db-setup:latest"
-    container_name: "mip-cde-meta-db-setup"
     environment:
       - FLYWAY_DBMS=postgresql
       - FLYWAY_HOST=db
@@ -29,20 +30,19 @@ services:
       - FLYWAY_DATABASE_NAME=meta
       - FLYWAY_USER=meta
       - FLYWAY_PASSWORD=meta
-    links:
-     - "meta_db:db"
+    depends_on:
+      - db
 
   # Issues with volume mounting here, workaround by building an image including the sources
   meta_db_check:
     build:
       context: .
       dockerfile: Dockerfile.check
-    container_name: "meta-db-check"
     environment:
       - HOST=db
       - PORT=5432
       - DATABASE=meta
       - USER=meta
       - PASSWORD=meta
-    links:
-      - "meta_db:db"
+    depends_on:
+      - db

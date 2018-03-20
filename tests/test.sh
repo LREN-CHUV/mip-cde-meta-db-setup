@@ -14,6 +14,11 @@ get_script_dir () {
      pwd
 }
 
+if pgrep -lf sshuttle > /dev/null ; then
+  echo "sshuttle detected. Please close this program as it messes with networking and prevents builds inside Docker to work"
+  exit 1
+fi
+
 cd "$(get_script_dir)"
 
 if [[ $NO_SUDO || -n "$CIRCLECI" ]]; then
@@ -34,7 +39,7 @@ function _cleanup() {
 }
 trap _cleanup EXIT INT TERM
 
-$DOCKER_COMPOSE up -d --remove-orphans meta_db
+$DOCKER_COMPOSE up -d --remove-orphans db
 $DOCKER_COMPOSE run wait_dbs
 $DOCKER_COMPOSE build meta_db_check
 
