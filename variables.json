@@ -334,14 +334,14 @@
         },
         {
           "code": "pib",
-          "description": "Average PIB SUVR of frontal cortex, anterior cingulate, precuneus cortex, and parietal cortex. ",
+          "description": "Average PIB SUVR of frontal cortex, anterior cingulate, precuneus cortex, and parietal cortex.",
           "label": "PIB",
           "methodology": "adni-merge",
           "type": "real"
         },
         {
           "code": "av45",
-          "description": "AV45 Average AV45 SUVR of frontal, anterior cingulate, precuneus, and parietal cortex\nrelative to the cerebellum",
+          "description": "AV45 Average AV45 SUVR of frontal, anterior cingulate, precuneus, and parietal cortex relative to the cerebellum",
           "label": "AV45",
           "methodology": "adni-merge",
           "type": "real"
@@ -1635,7 +1635,7 @@
             },
             {
               "code": "updrshy",
-              "description": "The Hoehn and Yahr scale (HY) is a widely used clinical rating scale, which defines broad categories of motor function in Parkinson\u2019s disease (PD). It captures typical patterns of progressive motor impairment.",
+              "description": "The Hoehn and Yahr scale (HY) is a widely used clinical rating scale, which defines broad categories of motor function in Parkinson''s disease (PD). It captures typical patterns of progressive motor impairment.",
               "label": "UPDRS HY - Hoehn and Yahr scale",
               "maxValue": 5,
               "methodology": "mip-cde",
@@ -1649,7 +1649,7 @@
       "variables": [
         {
           "code": "minimentalstate",
-          "description": "The Mini\u2013Mental State Examination (MMSE) or Folstein test is a 30-point questionnaire that is used extensively in clinical and research settings to measure cognitive impairment. It is commonly used to screen for dementia.",
+          "description": "The Mini-Mental State Examination (MMSE) or Folstein test is a 30-point questionnaire that is used extensively in clinical and research settings to measure cognitive impairment. It is commonly used to screen for dementia.",
           "label": "MMSE - Mini Mental State Examination",
           "maxValue": 30,
           "methodology": "mip-cde",
@@ -1760,7 +1760,7 @@
       "variables": [
         {
           "code": "alzheimerbroadcategory",
-          "description": "There will be two broad categories taken into account. Alzheimer''s disease (AD) in which the diagnostic is 100% certain and \"Other\" comprising the rest of Alzheimer''s related categories. The \"Other\" category refers to Alzheime''s related diagnosis which origin can be traced to other pathology eg. vascular. In this category MCI diagnosis can also be found. In summary, all Alzheimer''s related diagnosis that are not pure.",
+          "description": "There will be two broad categories taken into account. Alzheimer''s disease (AD) in which the diagnostic is 100% certain and \"Other\" comprising the rest of Alzheimer''s related categories. The \"Other\" category refers to Alzheimer''s related diagnosis which origin can be traced to other pathology eg. vascular. In this category MCI diagnosis can also be found. In summary, all Alzheimer''s related diagnosis that are not pure.",
           "enumerations": [
             {
               "code": "AD",
@@ -1834,7 +1834,7 @@
             },
             {
               "code": "CJD",
-              "label": "Maladie de Creutzfeldt-Jakob"
+              "label": "Creutzfeldt\u2013Jakob disease"
             }
           ],
           "label": "Neurodegeneratives categories",
