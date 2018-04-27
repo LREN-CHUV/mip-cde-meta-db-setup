@@ -1835,6 +1835,14 @@
             {
               "code": "CJD",
               "label": "Creutzfeldt\u2013Jakob disease"
+            },
+            {
+              "code": "FTD",
+              "label": "Frontotemporal dementia"
+            },
+            {
+              "code": "MS",
+              "label": "Multiple sclerosis"
             }
           ],
           "label": "Neurodegeneratives categories",
