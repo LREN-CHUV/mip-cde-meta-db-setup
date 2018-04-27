@@ -1773,6 +1773,10 @@
             {
               "code": "Other",
               "label": "Other"
+            },
+            {
+              "code": "MCI",
+              "label": "Mild cognitive impairment"
             }
           ],
           "label": "Alzheimer Broad Category",
