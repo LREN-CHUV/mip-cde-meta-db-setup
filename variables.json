@@ -1893,6 +1893,10 @@
             {
               "code": "MS",
               "label": "Multiple sclerosis"
+            },
+            {
+              "code": "CN",
+              "label": "Healthy control"
             }
           ],
           "label": "Neurodegeneratives categories",
