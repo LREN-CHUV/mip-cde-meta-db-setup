@@ -1,6 +1,10 @@
 
 # Changelog
 
+# 1.3.3 - 2018-09-05
+
+* Update parent image hbpmip/meta-db-setup to version 2.4.1
+
 # 1.3.1 - 2018-05-02
 
 * Add MS and FTD categories to neuro degenerative diseases
