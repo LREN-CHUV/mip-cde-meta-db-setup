@@ -1,6 +1,10 @@
 
 # Changelog
 
+# Unreleased
+
+*
+
 # 1.3.3 - 2018-09-05
 
 * Update parent image hbpmip/meta-db-setup to version 2.4.1
