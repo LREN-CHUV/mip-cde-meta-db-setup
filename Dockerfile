@@ -1,12 +1,11 @@
-FROM hbpmip/meta-db-setup:2.4.2
-MAINTAINER Ludovic Claude <ludovic.claude@chuv.ch>
+FROM hbpmip/meta-db-setup:2.4.3
+
+COPY variables.json /src/variables/mip-cde.json
+ENV TAXONOMIES="mip-cde|MIP_CDE_FEATURES|dataset,gender,agegroup,alzheimerbroadcategory"
 
 ARG BUILD_DATE
 ARG VCS_REF
 ARG VERSION
-
-COPY variables.json /src/variables/mip-cde.json
-ENV TAXONOMIES="mip-cde|MIP_CDE_FEATURES|dataset,gender,agegroup,alzheimerbroadcategory"
 
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="hbpmip/mip-cde-meta-db-setup" \

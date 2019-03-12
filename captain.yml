@@ -1,9 +1,0 @@
-target_image:
-  build: Dockerfile
-  image: hbpmip/mip-cde-meta-db-setup
-  pre:
-    - echo "Building hbpmip/mip-cde-meta-db-setup image"
-  post:
-    - echo "Finished building hbpmip/mip-cde-meta-db-setup image"
-  test:
-    - ./tests/test.sh
