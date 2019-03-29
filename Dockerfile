@@ -1,4 +1,4 @@
-FROM hbpmip/meta-db-setup:2.4.3
+FROM hbpmip/meta-db-setup:2.5.0
 
 COPY variables.json /src/variables/mip-cde.json
 ENV TAXONOMIES="mip-cde|MIP_CDE_FEATURES|dataset,gender,agegroup,alzheimerbroadcategory"
