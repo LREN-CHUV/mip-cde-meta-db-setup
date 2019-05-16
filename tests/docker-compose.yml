@@ -3,7 +3,7 @@ version: '3.0'
 services:
 
   db:
-    image: "postgres:9.6.5-alpine"
+    image: "postgres:11.3-alpine"
     restart: unless-stopped
     ports:
       - "5432:5432"
